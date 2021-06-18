@@ -11,11 +11,11 @@ $mail->setLanguage('ru', 'phpmailer/language/');
 $mail->IsHTML(true);
 
 // От кого письмо
-$mail->setFrom('info@fls.guru', 'Фрилансер по жизни');
+$mail->setFrom('matvei4uk4uk@mail.ru', 'Sergey');
 // Кому отправить
-$mail->addAddress('code@fls.guru');
+$mail->addAddress('sergejmatvejcuk323@gmail.com');
 // Тема письма
-$mail->Subject = 'Привет! Это "Фрилансер по жизни"';
+$mail->Subject = 'Привет! Это "Sergey -> Фрилансер по жизни"';
 
 // Рука
 $hand = "Правая";
